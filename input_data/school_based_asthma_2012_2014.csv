@@ -1,0 +1,197 @@
+level,name,rate
+state,Connecticut,0.14300000000000002
+regions,6 wealthiest Fairfield County,0.08800000000000001
+regions,Fairfield County,0.122
+regions,Greater Hartford,0.171
+regions,Greater New Haven,0.12
+regions,Greater Waterbury,0.14800000000000002
+regions,Hartford Inner Ring,0.163
+regions,Hartford Outer Ring,0.124
+regions,Lower Naugatuck Valley,0.13
+regions,New Haven Inner Ring,0.11699999999999999
+regions,New Haven Outer Ring,0.09699999999999999
+districts,Amistad Academy District,0.146
+districts,Andover,0.10400000000000001
+districts,Ansonia,0.163
+districts,Area Cooperative Educational Services,0.233
+districts,Ashford,0.142
+districts,Avon,0.079
+districts,Barkhamsted,NA
+districts,Berlin,0.146
+districts,Bethany,NA
+districts,Bethel,0.158
+districts,Bloomfield,0.14400000000000002
+districts,Bolton,0.18600000000000003
+districts,Bozrah,NA
+districts,Branford,0.113
+districts,Brass City Charter,0.33
+districts,Bridgeport,0.159
+districts,Bridgeport Achievement First District,0.149
+districts,Bristol,0.149
+districts,Brookfield,0.102
+districts,Brooklyn,0.156
+districts,Canaan,0.22699999999999998
+districts,Canterbury,0.122
+districts,Canton,0.11900000000000001
+districts,Capitol Region Education Council,0.225
+districts,Chaplin,0.162
+districts,Cheshire,0.07
+districts,Chester,0.086
+districts,Clinton,0.121
+districts,Colchester,0.129
+districts,Colebrook,0.248
+districts,Columbia,0.126
+districts,Common Ground High,0.14400000000000002
+districts,Cooperative Educational Services,0.244
+districts,Cornwall,NA
+districts,Coventry,0.128
+districts,Cromwell,0.156
+districts,Danbury,0.13
+districts,Darien,0.10099999999999999
+districts,Deep River,0.10099999999999999
+districts,Derby,0.17
+districts,East Granby,0.111
+districts,East Haddam,0.11599999999999999
+districts,East Hampton,0.126
+districts,East Hartford,0.195
+districts,East Haven,0.131
+districts,East Lyme,0.10800000000000001
+districts,East Windsor,0.165
+districts,Eastford,0.11900000000000001
+districts,Easton,0.086
+districts,Ellington,0.131
+districts,Elm City College Preparatory,0.195
+districts,Elm City Montessori,NA
+districts,Enfield,0.158
+districts,Essex,0.08800000000000001
+districts,Explorations District,NA
+districts,Fairfield,0.10400000000000001
+districts,Farmington,0.14
+districts,Franklin,0.261
+districts,Glastonbury,0.083
+districts,Granby,0.13
+districts,Greenwich,0.08900000000000001
+districts,Griswold,0.11699999999999999
+districts,Groton,0.142
+districts,Guilford,0.11
+districts,Hamden,0.105
+districts,Hampton,0.23800000000000002
+districts,Hartford,0.235
+districts,Hartland,0.133
+districts,Hebron,0.09699999999999999
+districts,Highville Charter,0.255
+districts,Interdistrict School for Arts and Comm District,0.28300000000000003
+districts,Jumoke Academy District,0.131
+districts,Kent,0.136
+districts,Killingly,0.127
+districts,Learn,0.166
+districts,Lebanon,0.102
+districts,Ledyard,0.09699999999999999
+districts,Lisbon,0.145
+districts,Litchfield,0.092
+districts,Madison,0.12
+districts,Manchester,0.205
+districts,Mansfield,0.132
+districts,Marlborough,0.085
+districts,Meriden,0.22
+districts,Middletown,0.228
+districts,Milford,0.079
+districts,Monroe,0.126
+districts,Montville,0.106
+districts,Naugatuck,0.135
+districts,New Britain,0.27699999999999997
+districts,New Canaan,0.081
+districts,New Fairfield,0.114
+districts,New Hartford,0.04
+districts,New Haven,0.147
+districts,New London,0.182
+districts,New Milford,0.11699999999999999
+districts,Newington,0.19399999999999998
+districts,Newtown,0.08199999999999999
+districts,Norfolk,NA
+districts,North Branford,0.115
+districts,North Canaan,0.149
+districts,North Haven,0.11
+districts,North Stonington,0.129
+districts,Norwalk,0.14400000000000002
+districts,Norwich,0.17600000000000002
+districts,Norwich Free Academy District,0.166
+districts,Odyssey Community,0.18
+districts,Old Saybrook,0.146
+districts,Orange,0.040999999999999995
+districts,Oxford,0.113
+districts,Plainfield,0.146
+districts,Plainville,0.152
+districts,Plymouth,0.142
+districts,Pomfret,0.087
+districts,Portland,0.155
+districts,Preston,0.065
+districts,Putnam,0.183
+districts,Redding,0.08800000000000001
+districts,Regional School District 01,0.14400000000000002
+districts,Regional School District 04,0.141
+districts,Regional School District 05,0.079
+districts,Regional School District 06,0.053
+districts,Regional School District 07,0.087
+districts,Regional School District 08,0.106
+districts,Regional School District 09,0.113
+districts,Regional School District 10,0.09
+districts,Regional School District 11,0.127
+districts,Regional School District 12,0.113
+districts,Regional School District 13,0.154
+districts,Regional School District 14,0.122
+districts,Regional School District 15,0.11800000000000001
+districts,Regional School District 16,0.099
+districts,Regional School District 17,0.171
+districts,Regional School District 18,0.094
+districts,Regional School District 19,0.065
+districts,Ridgefield,0.127
+districts,Rocky Hill,0.1
+districts,Salem,0.12
+districts,Salisbury,0.095
+districts,Scotland,NA
+districts,Seymour,0.11699999999999999
+districts,Sharon,0.128
+districts,Shelton,0.124
+districts,Sherman,0.069
+districts,Side By Side Charter,NA
+districts,Simsbury,0.127
+districts,Somers,0.10099999999999999
+districts,South Windsor,0.131
+districts,Southington,0.132
+districts,Sprague,0.163
+districts,Stafford,0.134
+districts,Stamford,0.154
+districts,Stamford Academy District,NA
+districts,Sterling,0.156
+districts,Stonington,0.11699999999999999
+districts,Stratford,0.122
+districts,Suffield,0.11800000000000001
+districts,The Bridge Academy District,0.22699999999999998
+districts,The Gilbert,0.09300000000000001
+districts,Thomaston,0.081
+districts,Thompson,0.124
+districts,Tolland,0.221
+districts,Torrington,0.102
+districts,Trumbull,0.10099999999999999
+districts,Vernon,0.21100000000000002
+districts,Voluntown,0.114
+districts,Wallingford,0.126
+districts,Waterbury,0.215
+districts,Waterford,0.115
+districts,Watertown,0.094
+districts,West Hartford,0.141
+districts,West Haven,0.122
+districts,Westbrook,0.096
+districts,Weston,0.051
+districts,Westport,0.073
+districts,Wethersfield,0.07
+districts,Willington,0.18600000000000003
+districts,Wilton,0.077
+districts,Winchester,NA
+districts,Windham,0.205
+districts,Windsor,0.21
+districts,Windsor Locks,0.134
+districts,Wolcott,0.11199999999999999
+districts,Woodbridge,0.078
+districts,Woodstock,0.161
