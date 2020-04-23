@@ -60,6 +60,7 @@ out_df <- out %>%
   filter(level %in% c("state", "town"))
 
 saveRDS(out_df, "output_data/internet.rds")
+write_csv(out_df, "to_distro/town_acs_internet_2018.csv")
 
 meta <- tribble(
   ~indicator, ~display, ~denom,

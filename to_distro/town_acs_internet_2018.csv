@@ -1,0 +1,171 @@
+level,name,no_computer,no_broadband,ages00_17_no_broadband,ages18_64_no_broadband
+state,Connecticut,0.19,0.07,0.05,0.06
+town,Andover,0.11,0.05,0.02,0.04
+town,Ansonia,0.31,0.14,0.06,0.12
+town,Ashford,0.14,0.06,0.06,0.04
+town,Avon,0.05,0.02,0,0.01
+town,Barkhamsted,0.11,0.07,0,0.05
+town,Beacon Falls,0.1,0.07,0.05,0.07
+town,Berlin,0.16,0.05,0.02,0.02
+town,Bethany,0.12,0.07,0.07,0.11
+town,Bethel,0.11,0.04,0.02,0.02
+town,Bethlehem,0.13,0.06,0.04,0.04
+town,Bloomfield,0.24,0.09,0.07,0.07
+town,Bolton,0.09,0.06,0.15,0.09
+town,Bozrah,0.11,0.06,0.03,0.03
+town,Branford,0.17,0.06,0.02,0.03
+town,Bridgeport,0.32,0.12,0.1,0.08
+town,Bridgewater,0.1,0.07,0,0.03
+town,Bristol,0.22,0.08,0.03,0.05
+town,Brookfield,0.1,0.03,0.01,0.02
+town,Brooklyn,0.19,0.06,0.02,0.02
+town,Burlington,0.07,0.03,0,0.03
+town,Canaan,0.15,0.06,0.1,0.06
+town,Canterbury,0.16,0.05,0,0.03
+town,Canton,0.14,0.06,0.01,0.02
+town,Chaplin,0.14,0.08,0.03,0.05
+town,Cheshire,0.12,0.07,0.03,0.06
+town,Chester,0.1,0.03,0,0.01
+town,Clinton,0.15,0.04,0.03,0.04
+town,Colchester,0.1,0.04,0.01,0.02
+town,Colebrook,0.18,0.06,0,0.03
+town,Columbia,0.08,0.03,0.06,0.03
+town,Cornwall,0.08,0.04,0,0.01
+town,Coventry,0.1,0.04,0.02,0.02
+town,Cromwell,0.15,0.06,0.02,0.05
+town,Danbury,0.2,0.08,0.06,0.07
+town,Darien,0.07,0.02,0.01,0.01
+town,Deep River,0.18,0.09,0,0.07
+town,Derby,0.26,0.13,0.08,0.12
+town,Durham,0.09,0.03,0,0.02
+town,East Granby,0.14,0.04,0.04,0.02
+town,East Haddam,0.12,0.07,0.07,0.06
+town,East Hampton,0.12,0.08,0,0.06
+town,East Hartford,0.25,0.08,0.06,0.06
+town,East Haven,0.23,0.05,0.01,0.03
+town,East Lyme,0.12,0.03,0.01,0.02
+town,East Windsor,0.17,0.08,0.17,0.07
+town,Eastford,0.14,0.02,0.01,0.01
+town,Easton,0.07,0.02,0,0.01
+town,Ellington,0.13,0.04,0,0.01
+town,Enfield,0.17,0.06,0.02,0.04
+town,Essex,0.12,0.05,0,0.03
+town,Fairfield,0.09,0.03,0.02,0.02
+town,Farmington,0.15,0.05,0.02,0.03
+town,Franklin,0.13,0.1,0.01,0.03
+town,Glastonbury,0.09,0.05,0.02,0.03
+town,Goshen,0.09,0.05,0,0.03
+town,Granby,0.08,0.02,0,0.01
+town,Greenwich,0.09,0.04,0.01,0.03
+town,Griswold,0.18,0.06,0.03,0.06
+town,Groton,0.19,0.06,0.05,0.05
+town,Guilford,0.09,0.04,0.01,0.03
+town,Haddam,0.09,0.03,0.01,0.04
+town,Hamden,0.18,0.06,0.02,0.04
+town,Hampton,0.11,0.03,0.04,0.03
+town,Hartford,0.41,0.18,0.17,0.15
+town,Hartland,0.1,0.03,0.01,0.03
+town,Harwinton,0.1,0.04,0,0.02
+town,Hebron,0.1,0.02,0,0.01
+town,Kent,0.13,0.06,0,0.06
+town,Killingly,0.23,0.11,0.09,0.09
+town,Killingworth,0.11,0.07,0.03,0.05
+town,Lebanon,0.1,0.04,0,0.03
+town,Ledyard,0.11,0.04,0.03,0.03
+town,Lisbon,0.16,0.07,0,0.04
+town,Litchfield,0.16,0.08,0.08,0.05
+town,Lyme,0.1,0.03,0,0
+town,Madison,0.09,0.05,0.03,0.03
+town,Manchester,0.16,0.06,0.04,0.04
+town,Mansfield,0.09,0.11,0.02,0.11
+town,Marlborough,0.03,0.06,0.03,0.03
+town,Meriden,0.29,0.1,0.07,0.09
+town,Middlebury,0.15,0.07,0.01,0.03
+town,Middlefield,0.14,0.06,0.02,0.03
+town,Middletown,0.22,0.09,0.09,0.08
+town,Milford,0.14,0.05,0.03,0.03
+town,Monroe,0.11,0.07,0.07,0.05
+town,Montville,0.15,0.05,0.02,0.02
+town,Morris,0.09,0.06,0,0.04
+town,Naugatuck,0.18,0.06,0.02,0.04
+town,New Britain,0.38,0.16,0.14,0.13
+town,New Canaan,0.06,0.02,0.01,0.01
+town,New Fairfield,0.07,0.03,0.01,0.02
+town,New Hartford,0.08,0.08,0.04,0.06
+town,New Haven,0.3,0.1,0.09,0.1
+town,New London,0.35,0.1,0.09,0.08
+town,New Milford,0.12,0.07,0.03,0.04
+town,Newington,0.19,0.08,0.06,0.06
+town,Newtown,0.1,0.03,0.01,0.02
+town,Norfolk,0.17,0.07,0,0.05
+town,North Branford,0.14,0.04,0.01,0.04
+town,North Canaan,0.25,0.07,0,0.05
+town,North Haven,0.15,0.03,0.02,0.02
+town,North Stonington,0.14,0.1,0.02,0.06
+town,Norwalk,0.14,0.05,0.03,0.04
+town,Norwich,0.28,0.09,0.07,0.08
+town,Old Lyme,0.15,0.05,0.01,0.04
+town,Old Saybrook,0.14,0.03,0.07,0.01
+town,Orange,0.09,0.02,0,0.01
+town,Oxford,0.07,0.08,0.09,0.08
+town,Plainfield,0.25,0.1,0.06,0.06
+town,Plainville,0.22,0.09,0.01,0.07
+town,Plymouth,0.19,0.1,0.01,0.07
+town,Pomfret,0.14,0.08,0,0.04
+town,Portland,0.16,0.08,0.03,0.04
+town,Preston,0.18,0.08,0.01,0.04
+town,Prospect,0.15,0.06,0.09,0.05
+town,Putnam,0.26,0.11,0.12,0.05
+town,Redding,0.06,0.06,0.02,0.02
+town,Ridgefield,0.05,0.03,0.01,0.02
+town,Rocky Hill,0.17,0.05,0.03,0.03
+town,Roxbury,0.09,0.04,0.02,0.04
+town,Salem,0.11,0.06,0.02,0.04
+town,Salisbury,0.16,0.05,0.03,0.03
+town,Scotland,0.08,0.05,0.07,0.04
+town,Seymour,0.2,0.08,0,0.04
+town,Sharon,0.1,0.08,0,0.05
+town,Shelton,0.16,0.07,0.07,0.05
+town,Sherman,0.04,0.05,0.07,0.05
+town,Simsbury,0.09,0.03,0.03,0.03
+town,Somers,0.12,0.09,0.06,0.09
+town,South Windsor,0.11,0.06,0.03,0.05
+town,Southbury,0.16,0.09,0.06,0.06
+town,Southington,0.17,0.05,0.02,0.03
+town,Sprague,0.24,0.09,0.02,0.07
+town,Stafford,0.21,0.07,0,0.04
+town,Stamford,0.15,0.06,0.04,0.04
+town,Sterling,0.21,0.09,0.06,0.09
+town,Stonington,0.15,0.05,0.03,0.04
+town,Stratford,0.18,0.09,0.05,0.07
+town,Suffield,0.1,0.04,0.03,0.02
+town,Thomaston,0.16,0.06,0.06,0.06
+town,Thompson,0.21,0.07,0.05,0.05
+town,Tolland,0.08,0.03,0,0.01
+town,Torrington,0.2,0.06,0.03,0.04
+town,Trumbull,0.11,0.05,0.03,0.02
+town,Union,0.15,0.02,0,0.02
+town,Vernon,0.2,0.07,0.04,0.06
+town,Voluntown,0.18,0.04,0.01,0.03
+town,Wallingford,0.17,0.08,0.04,0.07
+town,Warren,0.1,0.05,0.03,0.02
+town,Washington,0.07,0.03,0,0.02
+town,Waterbury,0.37,0.17,0.14,0.14
+town,Waterford,0.17,0.04,0.01,0.02
+town,Watertown,0.19,0.07,0.04,0.04
+town,West Hartford,0.14,0.05,0.03,0.03
+town,West Haven,0.26,0.07,0.05,0.05
+town,Westbrook,0.14,0.05,0.08,0.03
+town,Weston,0.02,0.01,0,0
+town,Westport,0.06,0.03,0,0.02
+town,Wethersfield,0.18,0.06,0.02,0.04
+town,Willington,0.15,0.09,0,0.05
+town,Wilton,0.04,0.01,0,0
+town,Winchester,0.3,0.06,0.05,0.05
+town,Windham,0.36,0.14,0.13,0.13
+town,Windsor,0.13,0.06,0.02,0.04
+town,Windsor Locks,0.25,0.11,0,0.07
+town,Wolcott,0.18,0.11,0.04,0.08
+town,Woodbridge,0.06,0.04,0.01,0.01
+town,Woodbury,0.14,0.07,0.03,0.06
+town,Woodstock,0.12,0.05,0.01,0.03
