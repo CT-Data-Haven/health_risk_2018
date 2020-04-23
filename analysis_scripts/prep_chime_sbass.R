@@ -57,7 +57,8 @@ meta <- conditions %>%
          format = ",d")
 
 n_min <- 100
-# indicator by town by age group, 2015-2017 if at least 100 encounters/population
+pop_min <- 1500
+# indicator by town by age group, 2015-2017 if at least 100 encounters or 1000 town population
 # change by region
 
 chime_read <- readRDS("input_data/data_gender_mod2.rds") %>%
@@ -84,10 +85,18 @@ too_small <- chime_read %>%
   filter(value < n_min) %>%
   distinct(name, year, age_range, indicator)
 
+small_pops <- chime_read %>%
+  filter(metric == "Census", age_range == "All ages") %>%
+  distinct(name, value) %>%
+  filter(value < pop_min)
+
+
+
 chime <- chime_read %>%
   filter((age_range != "All ages" & metric == "Enc_Rate") | metric == "Age_Adj") %>%
   # select(level, name, year, age_range, clinical_feature, value) %>%
   anti_join(too_small, by = c("name", "year", "age_range", "indicator")) %>%
+  anti_join(small_pops, by = "name") %>%
   select(level, name, year, age = age_range, indicator, value) %>%
   arrange(year:indicator, level, name) %>%
   mutate(age = fct_recode(age, "All ages (age-adjusted)" = "All ages"))

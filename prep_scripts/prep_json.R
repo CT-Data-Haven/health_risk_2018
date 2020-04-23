@@ -1,7 +1,8 @@
 library(tidyverse)
 library(jsonlite)
 library(sf)
-
+library(googledrive)
+library(googlesheets4)
 
 ############# all data files
 all_files <- list.files("output_data", full.names = TRUE) %>%
@@ -40,27 +41,35 @@ shps <- list.files("shapes", full.names = TRUE) %>%
   set_names(str_replace, "sf", "topo") %>%
   map(readRDS)
 
-c(lst(town_topo), shps) %>%
-  iwalk(function(shp, name) {
-    geojsonio::topojson_write(shp, geometry = "polygon", object_name = str_remove(name, "_topo"),
-                              file = str_glue("to_viz/{ name }.json"))
-  })
+# message that topojson_write is temporarily defunct; nbd since files already written
+# c(lst(town_topo), shps) %>%
+#   iwalk(function(shp, name) {
+#     geojsonio::topojson_write(shp, geometry = "polygon", object_name = str_remove(name, "_topo"),
+#                               file = str_glue("to_viz/{ name }.json"))
+#   })
 
 ########### intro text + downloads
 intro_txt <- read_delim("input_data/intro_text.txt", delim = "|")
 
-library(googlesheets4)
-downloads <- googledrive::drive_get(id = "1C6K4_73M7iVfOnomcquAYT2bcbvWyvdGjq17COJrwZo") %>% 
-  read_sheet()
+meta_sheet <- drive_get(id = "1C6K4_73M7iVfOnomcquAYT2bcbvWyvdGjq17COJrwZo")
 
-full_join(intro_txt, downloads, by = "page") %>%
-  nest(intro = c(headline, text), download = c(dwdownload, dwsite, github), source = source) %>%
+downloads <- read_sheet(meta_sheet, sheet = 1)
+resources <- read_sheet(meta_sheet, sheet = 2) %>% 
+  mutate(page = "resources") %>%
+  nest(li = -c(page)) %>%
+  mutate(li = li %>% map(~split(., .$type)) %>% map_depth(2, select, -type))
+
+page_meta <- list(intro_txt, downloads, resources) %>%
+  reduce(full_join, by = "page") %>%
+  nest(intro = c(headline, text), urls = c(dwdownload, dwsite, github)) %>%
   split(.$page) %>%
   map(select, -page) %>%
-  map_depth(2, purrr::flatten) %>%
-  map_depth(2, function(l) keep(l, ~!is.na(.))) %>%
-  map(compact) %>%
-  map(function(l) l["source"] <- { l["source"] <- l["source"][[1]]; l  }) %>%
-  write_json("to_viz/page_meta.json", auto_unbox = TRUE)
+  map(function(pgdf) {
+    map_if(pgdf, is.list, purrr::flatten)
+  }) %>%
+  map_depth(2, function(l) discard(l, is.na(l))) %>%
+  map(compact)
+
+write_json(page_meta, "to_viz/page_meta.json", auto_unbox = TRUE)
 
  
